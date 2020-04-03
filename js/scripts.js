@@ -15,7 +15,9 @@ function findTheRange(theirInput) {
   }
   return rangeArray;
 }
+
 //////////////////////////////// Front-end logic ////////////////////////////////
+
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
