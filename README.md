@@ -10,6 +10,16 @@ _This website will take a user inputted number and provide the range from 0 to t
 
 ## Setup/Installation Requirements
 
+_Follow this link to my gh-pages branch!_
+
+_https://assassin56.github.io/ruby-friday_project3/_\
+
+## Specs
+
+* Take the users input for a number
+  * Input: 20
+  * Output: Return the range from 0 to 20
+
 ## Known Bugs
 
 No known issues as of 3/27/2020
