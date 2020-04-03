@@ -38,7 +38,7 @@ _https://assassin56.github.io/ruby-friday_project3/_\
 
 ## Known Bugs
 
-No known issues as of 3/27/2020
+No known issues as of 04/03/2020
 
 ## Support and contact details
 
