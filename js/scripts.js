@@ -3,11 +3,14 @@
 function findTheRange(theirInput) {
   var rangeArray = [];
   for (var i= 0; i <= theirInput; i++) {
-    rangeArray.push(i);
     var newString = i.toString();
-    console.log(newString);
+    rangeArray.push(newString);
     if (newString.includes("3")) {
-      rangeArray[i] = "I'm sorry, Dave. I'm afraid I can't do that.";
+      rangeArray[i] = " Won't you be my neighbor?";
+    } else if (newString.includes("2")) {
+      rangeArray[i] = " Boop!";
+    } else if (newString.includes("1")) {
+      rangeArray[i] = " Beep!";
     }
   }
   return rangeArray;
