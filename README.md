@@ -19,6 +19,7 @@ _https://assassin56.github.io/ruby-friday_project3/_\
 * Take the users input for a number
   * Input: 20
   * Output: Return their input [20].
+*
 
 ## Known Bugs
 
