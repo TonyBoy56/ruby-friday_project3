@@ -12,6 +12,8 @@ $(document).ready(function() {
     event.preventDefault();
     var theirInput = parseInt($("#userInput").val());
     console.log(theirInput);
-    $("#output").text(theirInput);
+    if (isNaN(theirInput)) {
+      alert("Ay yo, we need numbers up in this. Input a number next time");
+    }
   });
 });
