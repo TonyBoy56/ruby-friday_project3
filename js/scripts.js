@@ -1,0 +1,12 @@
+//////////////////////////////// Back-end logic ////////////////////////////////
+
+
+
+
+//////////////////////////////// Front-end logic ////////////////////////////////
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    var theirInput = $("#input").val();
+  });
+});
