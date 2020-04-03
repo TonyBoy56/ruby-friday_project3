@@ -19,7 +19,22 @@ _https://assassin56.github.io/ruby-friday_project3/_\
 * Take the users input for a number
   * Input: 20
   * Output: Return their input [20].
-*
+
+* Take the users input for a number and return an array from 0 to that number
+  * Input: 20
+  * Input: 0 - 20
+
+* Replace the any instance of the number 3 with "Won't you be my neighbor?"
+  * Input: 20
+  * Output: 0, 1, 2, "Won't you be my neighbor?", ...
+
+* Replace the any instance of the number 2 with "Boop!"
+  * Input: 20
+  * Output: 0, 1, "Beep!", ...
+
+* Replace the any instance of the number 1 with "Beep!"
+  * Input: 20
+  * Output: 0, "Beep!", 2, 3,...
 
 ## Known Bugs
 
