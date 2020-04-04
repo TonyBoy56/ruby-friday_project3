@@ -16,6 +16,12 @@ function findTheRange(theirInput) {
   return rangeArray;
 }
 
+function doTheReverse(findTheRange) {
+  findTheRange(theirInput);
+  var reverseArray = rangeArray.reverse();
+  console.log(reverseArray);
+}
+
 //////////////////////////////// Front-end logic ////////////////////////////////
 
 $(document).ready(function() {
@@ -25,7 +31,8 @@ $(document).ready(function() {
     if (isNaN(theirInput)) {
       alert("Ay yo, we need numbers up in this. Input a number next time.");
     } else {
-      $("#output").text(findTheRange(theirInput));
+      $("#output").text("The range of that number is: " + findTheRange(theirInput));
     }
+    doTheReverse(findTheRange(theirInput));
   });
 });
