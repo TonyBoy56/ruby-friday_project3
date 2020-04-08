@@ -60,7 +60,7 @@ _If you would like to view this project locally... :_
 
 ## Known Bugs
 
-No known issues as of 04/03/2020
+No known issues as of 04/08/2020
 
 ## Support and contact details
 
